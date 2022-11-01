@@ -1,0 +1,78 @@
+/*#region Général*/
+.entete-display {
+    background-color: #82A4C1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+thead{
+    background-color: #82A4C1;
+}
+/*#endregion*/
+/*#region SVG Couleur Blanche*/
+.change-my-color {
+    filter: invert(92%);
+    width: 24px;
+    height: 24px;
+}
+/*#endregion*/
+/*#region Formulaire Modif/Add*/
+.Mois_Annee{
+float: right;
+margin-right: 45%;
+}
+.MoisAnneetxt{
+width: 40px;  
+}
+.form{
+float: right;
+margin-right: 80%; 
+width: 100px;
+}
+/*#endregion*/
+/*#region Affiche Fiche*/
+.entete {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.entete p {
+    font-size: 3em;
+    color: #82A4C1;
+    padding: 0;
+    margin: 0;
+}
+
+.bord{
+    border-left: 1px;
+}
+
+.MoiAnn {
+    padding: 0;
+    margin: 0;
+}
+
+.Mois_Annee-case{
+    float: left;
+    margin-top: 20%; 
+    border: 1px black solid;
+    background-color: white;
+    color: black;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    
+}
+/*#endregion*/
